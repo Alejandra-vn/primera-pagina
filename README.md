@@ -1,2 +1,2 @@
 # primera-pagina
-Mi primera pagina creado en Tecnolochicas Pro usando HTML y CSS
+Mi primera pagina creado en Tecnolochicas Pro usando HTML
