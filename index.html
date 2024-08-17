@@ -3,98 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Todo sobre los Conejos</title>
-    <style>
-        body {
-            font-family: monospace, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4 url('images/fondo.jpg') no-repeat center center fixed;
-            background-size: cover;
-        }
-        header, footer {
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-        }
-        header {
-            background-color: #3b3a3a;
-        }
-        footer {
-            background-color: #333;
-            margin-top: 2rem;
-        }
-        h1 {
-            margin: 0;
-        }
-        main {
-            padding: 2rem;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 2rem;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #000;
-        }
-        p {
-            line-height: 1.6;
-        }
-        .section {
-            display: flex;
-            align-items: center;
-            margin-bottom: 2rem;
-        }
-        .section img {
-            max-width: 40%;
-            height: auto;
-            margin-left: 2rem;
-        }
-        .reverse-section {
-            flex-direction: row-reverse;
-        }
-        .reverse-section img {
-            margin-left: 0;
-            margin-right: 2rem;
-        }
-    </style>
 </head>
 <body>
     <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>
+                    <a href="#alimentos">Alimentos prohibidos para los conejos</a>
+                </li>
+                <li>
+                    <a href="#historias">Historias del cambio</a>
+                </li>
+            </ul>
+        </nav>
+    
+    
+    <div class="titulo">
         <h1>Todo sobre los Conejos</h1>
+    </div>
     </header>
-    <main>
+
+    <div class="cuadroblanco">
+        <h2>¿Qué son los Conejos?</h2>
+        <hr>
+        <p>Los conejos son pequeños mamíferos pertenecientes a la familia Leporidae del orden Lagomorpha. Se caracterizan por sus largas orejas, grandes ojos y patas traseras poderosas que les permiten dar saltos largos y rápidos.</p>
         <div class="container">
-            <div class="section">
-                <div class="section-content">
-                    <h2>¿Qué son los Conejos?</h2>
-                    <p>Los conejos son pequeños mamíferos pertenecientes a la familia Leporidae del orden Lagomorpha. Se caracterizan por sus largas orejas, grandes ojos y patas traseras poderosas que les permiten dar saltos largos y rápidos.</p>
-                </div>
-                <img src="images/conejo.jpg">
-            </div>
-
-            <div class="section reverse-section">
-                <img src="images/habitat.jpg">
-                <div class="section-content">
-                    <h2>Hábitat y Distribución</h2>
-                    <p>Los conejos se encuentran en una variedad de hábitats, incluidos praderas, bosques, desiertos y humedales. Están ampliamente distribuidos en América del Norte, Europa, Asia y África, y han sido introducidos en Australia y Nueva Zelanda.</p>
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="section-content">
-                    <h2>Alimentación</h2>
-                    <p>Los conejos son herbívoros y su dieta se compone principalmente de hierbas, hojas, frutas y cortezas de árboles. Tienen un sistema digestivo especializado que les permite extraer nutrientes de materiales vegetales fibrosos.</p>
-                </div>
-                <img src="images/alimento.jfif">
-            </div>
+            <img src="https://t2.ea.ltmcdn.com/es/posts/6/8/0/razas_de_conejos_enanos_o_toy_24086_600_square.jpg" alt="conejo blanco" style="width: 300px;">
         </div>
-    </main>
+        <h2>Hábitat y Distribución</h2>
+        <hr>
+        <p>Los conejos se encuentran en una variedad de hábitats, incluidos praderas, bosques, desiertos y humedales. Están ampliamente distribuidos en América del Norte, Europa, Asia y África, y han sido introducidos en Australia y Nueva Zelanda.</p>
+        <div class="container">
+            <img src="https://blog.agrocampo.com.co/wp-content/uploads/2021/02/reproduccion-de-los-conejos.jpg" alt="dos conejos blancos en una mini cueva" style="width: 300px;">
+        </div>
+
+        <h2>Alimentación</h2>
+        <hr>
+        <p>Los conejos son herbívoros y su dieta se compone principalmente de hierbas, hojas, frutas y cortezas de árboles. Tienen un sistema digestivo especializado que les permite extraer nutrientes de materiales vegetales fibrosos.</p>
+        <div class="container">
+            <img src="https://acuarioland.com/wp-content/uploads/2020/04/alimentos-prohibidos-para-los-conejos.jpg" alt="conejos comiendo verduras" style="width: 300px;">
+        </div>
+
+        <h2>Comportamiento</h2>
+        <hr>
+        <ul>
+            <li>Son animales sociales, disfrutan de la compañía de otros conejos</li>
+            <li>Pueden formar vínculos fuertes con sus dueños</li>
+            <li>Necesitan ejercicio diario, tanto dentro como fuera de la jaula</li>
+        </ul>
+        <h2>Señales de que tu conejo es feliz</h2>
+        <hr>
+        <ol>
+            <li>Saltos y Giros</li>
+            <li>Come bien y muestra interés en la comida</li>
+            <li>Se mantiene limpio y acicalado muestra que se siente bien consigo mismo</li>
+        </ol>
+        <hr>
+        <center><a href="https://petshelter.miwuki.com/conejos-en-adopcion" target="_blank">Click para adoptar</a></center>
+        <hr>
+    </div>
+
     <footer>
-        <p> Hecho por Sarai Alejandra</p>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <h3>¿Te gustaría adoptar uno?</h3>
+            <label for="si">Sí</label>
+            <input type="radio" id="si" name="adopcion" value="si">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="adopcion" value="no">
+
+            <h3>¿De qué color?</h3>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
     </footer>
 </body>
 </html>
