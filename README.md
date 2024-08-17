@@ -16,7 +16,7 @@ Podrás encontrarlo aquí [Adopta un conejo](https://primera-pagina-zeta.vercel.
 * Historias del cambio
 
 ## Captura del proyecto
-![Captura del proyecto](/Images/captura.png)
+![Captura del proyecto](/images/captura.png)
 
 
 
